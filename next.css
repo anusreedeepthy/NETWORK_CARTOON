@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ff{
+   
+    background-image: url(./images/next2.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+h1{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding-top: 40px;
+    padding-left: 650px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+}
+button{
+    margin-left: 200px;
+   border-top: 100px;
+    color: white;
+    background-color: rgb(122, 122, 80);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: transform .2s;
+    margin-top: 20px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+ .conta{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+#name{
+    margin-left: 390px;
+    color: white;
+    background-color: rgb(122, 122, 80);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: transform .2s;
+    margin-top: 20px;
+}
+#name:hover{
+    transform: scale(1.2);
+}
+#namee{
+    margin-left: 200px;
+    color: white;
+    background-color: rgb(122, 122, 80);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: transform .2s;
+    margin-top: 20px;
+}
+#namee:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width:412px){
+    .contain{
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+
+}
+.ff{
+   
+    background-image: url(./images/next2.jpg);
+    width: 412px;
+    height: 912px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: fixed;
+    /* display: flex; */
+    /* background-attachment: fixed; */
+}
+h1{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+button{
+    
+    color: white;
+    background-color: rgb(122, 122, 80);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.conta{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+#name{
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(122, 122, 80);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+   
+    margin-top: 20px;
+    transition: transform .2s;
+}
+#name:hover{
+    transform: scale(1.2);
+}
+#namee{
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(122, 122, 80);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+   
+    margin-top: 20px;
+    transition: transform .2s;
+}
+#namee:hover{
+    transform: scale(1.2);
+}
+}
